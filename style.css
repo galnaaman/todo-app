@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/assest/GT-Walsheim-Bold-Trial.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#tasksContainer {
+    animation: fadeIn 1s ease-in-out;
+}
+
+body {
+    font-family: 'GT Walsheim', sans-serif;
+    background-image: linear-gradient( 135deg, #daaff5 10%, #9F44D3 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-primary{
+    background-color: #9F44D3;
+    border-color: #9F44D3;
+}
+
+.btn-primary:hover{
+    background-color: #ffffff;
+    border-color: #9F44D3;
+    color: #9F44D3;
+}
+
+.card-big-shadow {
+    max-width: 320px;
+    position: relative;
+}
+
+
+
+.coloured-card-customs .card-custom {
+    margin-top: 30px;
+}
+
+.card-custom[data-radius="none"] {
+    border-radius: 0px;
+}
+.card-custom {
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+    background-color: #FFFFFF;
+    color: #252422;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    text-wrap: normal;
+}
+
+.card-custom:hover .btn-close {
+    visibility: visible !important;
+}
+
+
+.scrollable {
+    max-height: 300px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    scrollbar-width: thin;
+}
+
+
+.card-custom.card-just-text .content {
+    padding: 40px 50px;
+    text-align: center;
+}
+.card-custom .content {
+    padding: 20px 20px 5px 20px;
+}
+.card-custom[data-color="blue"] .category {
+    color: #7a9e9f;
+}
+
+.card-custom .category, .card-custom .label {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.card-big-shadow:before {
+    background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: -15%;
+    content: "";
+    display: block;
+    left: -12%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+h4, .h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+h6, .h6 {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card-custom .description {
+    font-size: 16px;
+    color: #66615b;
+}
+.content-card{
+    margin-top:30px;
+}
+
+.card-custom[data-color="yellow"] {
+    background: #ffe28c;
+}
+.card-custom[data-color="yellow"] .description {
+    color: #b25825;
+}
+.card-custom[data-color="yellow"] .category {
+    color: #d88715;
+}
+
+
+
+
